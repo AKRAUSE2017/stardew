@@ -1,0 +1,41 @@
+.character-card{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.character-card-head{
+    border: 1px solid #adadad;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom: none;
+    width: auto;
+    text-align: center;
+}
+
+.character-card-body{
+    border: 1px solid #adadad;
+    overflow: hidden;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+.card-col-left{
+    width: 25%;
+    float: left;
+}
+
+.card-col-right{
+    width: 75%;
+    float: left;
+}
+
+.card-row{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+}

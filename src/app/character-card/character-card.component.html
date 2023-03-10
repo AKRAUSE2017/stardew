@@ -1,0 +1,17 @@
+<div class="character-card">
+
+    <div class="character-card-head">{{character.name}}</div>
+
+    <div class="character-card-body">
+
+        <div [ngClass]="cardVertical ? 'card-row' : 'card-col-left'">
+            <img [src]="character.img">
+        </div>
+
+        <div [ngClass]="cardVertical ? 'card-row' : 'card-col-right'">
+            <p>{{character.bio}}</p>
+        </div>
+
+    </div>
+
+</div>
